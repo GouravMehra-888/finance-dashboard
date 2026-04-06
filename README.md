@@ -2,7 +2,7 @@
 
 A simple and interactive finance dashboard built to understand how users track, analyze, and manage their financial data.
 
-This project focuses more on **clarity, usability, and structure** rather than over-engineering — exactly how real-world frontend tasks are approached.
+This project focuses more on clarity, usability, and structure rather than over-engineering — exactly how real-world frontend tasks are approached.
 
 
 ## What this project does
@@ -15,7 +15,7 @@ The dashboard allows users to:
 * Interact with the UI based on roles (Admin / Viewer)
 
 
-## 🧠 Why I built this
+## Why I built this
 
 This project was built as part of a frontend assignment to demonstrate:
 
@@ -25,7 +25,7 @@ This project was built as part of a frontend assignment to demonstrate:
 * How I implement real-world features like RBAC and data handling
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Frontend
 
@@ -48,7 +48,7 @@ Icons
 * Lucide React
 
 
-## 📦 Libraries & Tools
+## Libraries & Tools
 
 * `zustand` → global state (transactions, role, filters)
 * `recharts` → charts (line + pie)
@@ -58,9 +58,9 @@ Icons
 * Custom utilities → CSV export, formatting
 
 
-## 🚀 Features
+## Features
 
-### 📊 Dashboard
+### Dashboard
 
 * Summary cards (Balance, Income, Expenses)
 * Visual charts:
@@ -69,7 +69,7 @@ Icons
   * Category-wise breakdown
 
 
-### 💳 Transactions
+### Transactions
 
 * List of all transactions
 * Includes:
@@ -86,7 +86,7 @@ Functionalities:
 * Export data as CSV
 
 
-### 🔐 Role-Based UI (RBAC Simulation)
+### Role-Based UI (RBAC Simulation)
 
 This is a frontend-only simulation of role-based access:
 
@@ -100,14 +100,14 @@ This is a frontend-only simulation of role-based access:
 Switch roles using a dropdown — UI updates instantly.
 
 
-### ➕ Add Transaction
+### Add Transaction
 
 * Modal-based form
 * Validates inputs
 * Updates global state instantly
 
 
-### 💡 Insights
+### Insights
 
 * Basic insights like:
 
@@ -115,7 +115,7 @@ Switch roles using a dropdown — UI updates instantly.
   * Monthly comparisons
 
 
-## 🧩 Project Structure
+## Project Structure
 
 src/
 │
@@ -143,9 +143,8 @@ src/
 │
 ├── App.jsx
 └── main.jsx
-```
 
-## 🧠 State Management Approach
+## State Management Approach
 
 I used Zustand to keep things simple and clean.
 
@@ -158,7 +157,7 @@ It handles:
 This avoids prop-drilling and keeps a single source of truth.
 
 
-## 📱 Responsiveness
+## Responsiveness
 
 The UI is built to work across:
 
@@ -169,7 +168,7 @@ The UI is built to work across:
 Handled using Tailwind’s responsive utilities.
 
 
-## ⚡ How to run this project
+## How to run this project
 
 # Clone the repo
 git clone <your-repo-link>
@@ -184,12 +183,12 @@ npm install
 npm run dev
 
 
-## 🧪 Build
+## Build
 
 npm run build
 
 
-## 🎯 What I focused on
+##  What I focused on
 
 * Clean and readable UI
 * Logical component structure
@@ -197,7 +196,7 @@ npm run build
 * Real-world features over unnecessary complexity
 
 
-## 🚧 Future Improvements
+##  Future Improvements
 
 If I had more time, I would add:
 
@@ -208,13 +207,13 @@ If I had more time, I would add:
 * Animations
 
 
-## 👨‍💻 Author
+## Author
 
 Gourav Mehra
 
 
-## ⭐ Final Note
+## Final Note
 
 This project is not about perfection — it’s about showing how I think, structure, and build a frontend application.
 
-If you’re reviewing this, I’d love your feedback 🙌
+If you’re reviewing this, I’d love your feedback 
